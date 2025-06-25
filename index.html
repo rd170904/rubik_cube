@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rubik's Cube Grid</title>
+</head>
+<body>
+  <h2>Rubik's Cube </h2>
+
+  <div id="cubeDisplay"></div>
+  <br>
+
+  <button onclick="cube.scramble()">Scramble</button>
+  <button onclick="cube.solve()">Solve</button>
+  <br><br>
+
+  <button onclick="cube.rotateFace('F')">Rotate F</button>
+  <button onclick="cube.rotateFace('B')">Rotate B</button>
+  <button onclick="cube.rotateFace('U')">Rotate U</button>
+  <button onclick="cube.rotateFace('D')">Rotate D</button>
+  <button onclick="cube.rotateFace('L')">Rotate L</button>
+  <button onclick="cube.rotateFace('R')">Rotate R</button>
+
+  <script src="rubik.js"></script>
+</body>
+</html>
